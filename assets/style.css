@@ -22,7 +22,7 @@ header {
 .menutop {
     display: flex;
     flex-wrap: nowrap;
-    height: 8vh;
+    height: 7vh;
     margin-top: 0.5rem;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -49,8 +49,8 @@ header {
 .search {
     background-color: #F5F4F5;
     border-radius: 45px;
-    width: 60%;
-    
+    width: 65%;
+
     display: flex;
     justify-content: space-between;
     margin-left: 2rem;
@@ -59,7 +59,7 @@ header {
 .searchtext {
     justify-content: left;
     vertical-align: middle;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     color: #424242;
 }
 
@@ -82,20 +82,21 @@ header {
 
 
 .icones {
-    width: 30%;
+    width: 25%;
     display: flex;
     flex-wrap: nowrap;
     text-align: center;
     justify-content: space-evenly;
-}
-
-.icones i {
     font-size: 1.5rem;
 }
 
+/* .icones i {
+    font-size: 1.5rem;
+} */
+
 .icones p {
     margin: 0 auto;
-    font-size:  1rem;
+    font-size: 0.7rem;
 }
 
 /* barre de nav  */
@@ -104,7 +105,7 @@ header {
     height: 10vh;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0.7rem;
+    /* margin-top: 0.4rem; */
     background-color: white;
 
 }
@@ -175,7 +176,7 @@ li {
 }
 
 .flexgridpromo {
-   
+
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -189,10 +190,9 @@ li {
     grid-template-rows: 1fr 1fr;
 
     gap: 0.5rem;
-    margin-top:40vh;
-
-    border: solid 1px black;
+    margin-top: 30vh;
 }
+
 .gridpromo img {
     object-fit: scale-down;
 }
@@ -202,7 +202,7 @@ li {
     grid-row: 1/3;
     height: 100%;
     width: 100%;
-    
+
 
 }
 
@@ -232,6 +232,7 @@ li {
     margin: 1rem;
     background-color: white;
 }
+
 .navbar2 {
     display: block;
     background-color: #F5F4F5;
@@ -245,6 +246,7 @@ li {
 
 
 }
+
 .navbargrey {
     color: #4D6F56;
     background-color: #F5F4F5;
@@ -254,6 +256,7 @@ li {
     height: 5rem;
     font-size: large;
 }
+
 .navbarred2 {
     color: #E3262F;
     background-color: #F5F4F5;
