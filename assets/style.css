@@ -129,6 +129,7 @@ li {
     color: black;
     font-size: 0.9rem;
     margin-left: 1.5rem;
+    cursor: pointer;
 }
 
 .navbar:hover {
@@ -140,6 +141,7 @@ li {
     background: none;
     border: none;
     font-size: 0.9rem;
+    cursor: pointer;
 
 }
 
@@ -149,6 +151,7 @@ li {
     border: none;
     font-size: 0.9rem;
     margin-left: 1.5rem;
+    cursor: pointer;
 }
 
 .navbarred:hover {
@@ -170,7 +173,8 @@ li {
     width: 75%;
     text-align: center;
 }
-.CTAtext p{
+
+.CTAtext p {
     font-size: 0.8rem;
 }
 
@@ -209,6 +213,7 @@ li {
     grid-row: 1/3;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 
 }
@@ -218,6 +223,7 @@ li {
     grid-row: 1/2;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -226,6 +232,7 @@ li {
     grid-row: 2/3;
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -251,6 +258,7 @@ li {
     height: 5rem;
     font-style: bold;
     font-size: large;
+    cursor: pointer;
 
 
 }
@@ -263,6 +271,7 @@ li {
     width: 12rem;
     height: 5rem;
     font-size: large;
+    cursor: pointer;
 }
 
 .navbarred2 {
@@ -273,6 +282,7 @@ li {
     width: 12rem;
     height: 5rem;
     font-size: large;
+    cursor: pointer;
 }
 
 .flexgrid2 {
@@ -303,6 +313,7 @@ li {
 
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 
 }
@@ -312,6 +323,7 @@ li {
 
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -320,5 +332,6 @@ li {
 
     height: 100%;
     width: 100%;
+    cursor: pointer;
 
 }
